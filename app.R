@@ -3,7 +3,7 @@ library(ggplot2)
 library(mapproj)
 library(readxl)
 load("~/R/labdata20SU21.RData")
-nst_est2019_01 <- read_excel("~/nst-est2019-01.xlsx")
+nst_est2019_01 <- read_excel("~/R/nst-est2019-01.xlsx")
 
 ui <- fluidPage(
 
